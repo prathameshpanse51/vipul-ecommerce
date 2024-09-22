@@ -28,7 +28,7 @@ const Register = () => {
         toast.success("Registration Successful");
         setIsLoading(false);
         document.getElementById("my-modal-4").checked = false;
-        navigate("/");
+        navigate("/all");
       })
       .catch((error) => {
         toast.error(error.code, error.message);

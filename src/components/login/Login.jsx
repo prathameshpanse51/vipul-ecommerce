@@ -78,7 +78,7 @@ const Login = () => {
         const user = result.user;
         toast.success("Login Successful");
         setIsLoading(false);
-        navigate("/");
+        navigate("/all");
       })
       .catch((error) => {
         toast.error(error.code, error.message);

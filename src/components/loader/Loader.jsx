@@ -2,7 +2,13 @@ import ReactDOM from "react-dom";
 
 const Loader = () => {
   return ReactDOM.createPortal(
-    <div className="overlay">
+    <div
+      className="overlay"
+      style={{
+        backdropFilter: "saturate(100%) blur(1rem)",
+        zIndex: "999",
+      }}
+    >
       <div className="flex flex-col items-center">
         <h1 className="text-2xl font-semibold mb-4 text-center">
           {" "}
