@@ -70,7 +70,7 @@ const Hero = () => {
                   <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
                      <img
                         className="w-full h-full lg:max-w-3xl"
-                        src="https://files.oaiusercontent.com/file-67B1WlXEan2dhTTs68RbEajc?se=2024-09-22T08%3A04%3A30Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dcec5d0d6-2f8e-40bc-b997-551cb7c709cc.webp&sig=PI4PyNnRxMsdOprVMgg7DNHD2Z8xT4OocgPCReB/KBo%3D"
+                        src="images\cec5d0d6-2f8e-40bc-b997-551cb7c709cc.webp"
                         alt="Catalogue-pana.svg"
                      />
                   </div>
