@@ -70,7 +70,7 @@ const Hero = () => {
                   <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
                      <img
                         className="w-full h-full lg:max-w-3xl"
-                        src="src/components/hero/images/cec5d0d6-2f8e-40bc-b997-551cb7c709cc.webp"
+                        src="https://ik.imagekit.io/qz6ubt34n4/nextrendhero.webp?updatedAt=1726996242468"
                      />
                   </div>
                </div>
