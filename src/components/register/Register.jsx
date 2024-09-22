@@ -40,7 +40,8 @@ const Register = () => {
     setConfirmPassword("");
   };
 
-  const AllFieldsRequired = Boolean(email) && Boolean(password) && Boolean(confirmPassword);
+  const AllFieldsRequired =
+    Boolean(email) && Boolean(password) && Boolean(confirmPassword);
 
   return (
     <>
@@ -48,11 +49,15 @@ const Register = () => {
       <div className="py-6 w-72 md:w-96">
         <div className="flex bg-white rounded-lg shadow-lg overflow-hidden mx-auto max-w-4xl">
           <div className="w-full px-8 pt-4 pb-6">
-            <p className="text-lg text-gray-600 text-center">Create a new Account</p>
+            <p className="text-lg text-gray-600 text-center font-semibold mb-4">
+              Create a new Account
+            </p>
 
             <form onSubmit={handleSubmit} className="form-control">
               <div>
-                <label className="label-text font-bold mb-2 block">Email Address</label>
+                <label className="label-text font-bold mb-2 block">
+                  Email Address
+                </label>
                 <input
                   className="input input-bordered w-full border-2 "
                   type="email"
@@ -74,7 +79,11 @@ const Register = () => {
                 />
                 <span onClick={() => setShowPassword((prev) => !prev)}>
                   {showPassword ? (
-                    <AiFillEye className="absolute top-10 right-3 " size={26} color="gray" />
+                    <AiFillEye
+                      className="absolute top-10 right-3 "
+                      size={26}
+                      color="gray"
+                    />
                   ) : (
                     <AiFillEyeInvisible
                       className="absolute top-10 right-3 "
@@ -85,7 +94,9 @@ const Register = () => {
                 </span>
               </div>
               <div className="mt-4">
-                <label className="label-text font-bold mb-2">Confirm Password</label>
+                <label className="label-text font-bold mb-2">
+                  Confirm Password
+                </label>
                 <input
                   className="input input-bordered w-full border-2"
                   type="password"
@@ -96,7 +107,11 @@ const Register = () => {
               </div>
 
               <div className="mt-4">
-                <button type="submit" className="btn w-full" disabled={!AllFieldsRequired}>
+                <button
+                  type="submit"
+                  className="btn w-full"
+                  disabled={!AllFieldsRequired}
+                >
                   REGISTER
                 </button>
               </div>
