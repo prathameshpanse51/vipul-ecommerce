@@ -14,10 +14,10 @@ const Contact = () => {
       setLoading(true);
       emailjs
          .sendForm(
-            "service_rn5uwdh",
-            "template_z55djla",
+            "service_kahrvy8",
+            "template_xozhp3b",
             formRef.current,
-            "onCf_FZuuuG_27Kb_"
+            "9X8wlW3A_t6mSIa0R"
          )
          .then(
             (result) => {
@@ -51,12 +51,12 @@ const Contact = () => {
                   <div className="flex items-center gap-2 my-2 md:text-xl">
                      <AiOutlineMail />
                      <a href="mailto: Support@eshop.com?subject=Feedback&body=message">
-                        Support@eshop.com
+                        nextrend@gmail.com
                      </a>
                   </div>
                   <div className="flex items-center gap-2  my-2 md:text-xl">
                      <CiPhone />
-                     <a href="tel:+91-123-12345">91-123-12345</a>
+                     <a href="tel:+91-123-12345">+91 8657259566</a>
                   </div>
                   <div className="flex items-center gap-2 md:text-xl  my-2">
                      <AiOutlineTwitter />
@@ -65,7 +65,7 @@ const Contact = () => {
                         rel="noreferrer"
                         target="_blank"
                      >
-                        @kartik_im
+                        @nextrend01
                      </a>
                   </div>
                </div>

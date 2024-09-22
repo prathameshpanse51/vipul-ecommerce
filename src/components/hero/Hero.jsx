@@ -2,7 +2,7 @@ import hero from "../../assets/hero3.png";
 import { Link } from "react-router-dom";
 import { TbArrowNarrowRight } from "react-icons/tb";
 import { useEffect, useState } from "react";
-const tags = ["Mobiles", "Electronics", "Bags", "Clothes", "Jwellery"];
+const tags = ["T-Shirts", "Hoodies", "SweatShirts", "Polo T-shirts", "Zip-up Hoodies"];
 
 let currentIndex = 0;
 const Hero = () => {
@@ -49,16 +49,14 @@ const Hero = () => {
                   <div className="w-full lg:w-1/2">
                      <div className="lg:max-w-lg">
                         <p className="text-4xl font-bold text-neutral lg:text-4xl">
-                           Best place to choose <br /> your{" "}
-                           <span className="text-blue-500 opacity-100 transition-opacity duration-2000">
+                           Wear Your Vibe   <br /> Wear Your{" "}
+                           <span className="text-blue-500 opacity-100 transition-opacity duration-3000">
                               {tagName}
                            </span>
                         </p>
 
                         <p className="mt-3 text-gray-600 dark:text-gray-400">
-                           Lorem ipsum dolor sit amet, consectetur adipisicing
-                           elit. Porro beatae error laborum ab amet sunt
-                           recusandae? Reiciendis natus perspiciatis optio.
+                        At NexTrend, we offer a wide range of t-shirts, hoodies, and sweatshirts designed for both style and comfort. Whether you're looking for everyday essentials or standout designs, we've got the perfect fit to match your vibe with premium quality and timeless looks.
                         </p>
 
                         <Link to="/all">
@@ -72,7 +70,7 @@ const Hero = () => {
                   <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
                      <img
                         className="w-full h-full lg:max-w-3xl"
-                        src="https://merakiui.com/images/components/Catalogue-pana.svg"
+                        src="https://files.oaiusercontent.com/file-67B1WlXEan2dhTTs68RbEajc?se=2024-09-22T08%3A04%3A30Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dcec5d0d6-2f8e-40bc-b997-551cb7c709cc.webp&sig=PI4PyNnRxMsdOprVMgg7DNHD2Z8xT4OocgPCReB/KBo%3D"
                         alt="Catalogue-pana.svg"
                      />
                   </div>
