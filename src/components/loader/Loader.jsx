@@ -3,8 +3,11 @@ import ReactDOM from "react-dom";
 const Loader = () => {
   return ReactDOM.createPortal(
     <div className="overlay">
-      <div>
-        <h1 className="text-xl font-semibold"> Please wait , This might take a while</h1>
+      <div className="flex flex-col items-center">
+        <h1 className="text-2xl font-semibold mb-4 text-center">
+          {" "}
+          Please wait , This might take a while
+        </h1>
         <div className="loader"></div>
       </div>
     </div>,
